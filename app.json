@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "tapaway",
+    "slug": "tapaway",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#2b2d42"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "description": "",
+    "githubUrl": "https://github.com/olafkotur/tapaway",
+    "android": {
+      "package": "com.olafkotur.tapaway",
+      "versionCode": 1
+    }
+  }
+}
